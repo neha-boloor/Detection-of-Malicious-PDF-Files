@@ -1,0 +1,350 @@
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 103, in analyseJS
+    escapedVars = re.findall('(\w*?)\s*?=\s*?(unescape\((.*?)\))', code, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 75, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/jsbeautifier/__init__.py", line 210, in beautify
+    self.input = self.unpack(s, opts.eval_code)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/jsbeautifier/__init__.py", line 245, in unpack
+    import jsbeautifier.unpackers as unpackers
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/jsbeautifier/unpackers/__init__.py", line 10, in <module>
+    from jsbeautifier.unpackers import evalbased
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/jsbeautifier/unpackers/evalbased.py", line 17, in <module>
+    from subprocess import PIPE, Popen
+  File "/usr/lib/python2.7/subprocess.py", line 387, in <module>
+    """
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 103, in analyseJS
+    escapedVars = re.findall('(\w*?)\s*?=\s*?(unescape\((.*?)\))', code, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/peepdf.py", line 398, in <module>
+    console.cmdloop()
+  File "/usr/lib/python2.7/cmd.py", line 135, in cmdloop
+    self.stdout.flush()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/peepdf.py", line 398, in <module>
+    console.cmdloop()
+  File "/usr/lib/python2.7/cmd.py", line 142, in cmdloop
+    stop = self.onecmd(line)
+  File "/usr/lib/python2.7/cmd.py", line 221, in onecmd
+    return func(arg)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/PDFConsole.py", line 3458, in do_tree
+    self.log_output('tree ' + argv, treeOutput)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/PDFConsole.py", line 4140, in log_output
+    print niceOutput
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/peepdf.py", line 398, in <module>
+    console.cmdloop()
+  File "/usr/lib/python2.7/cmd.py", line 142, in cmdloop
+    stop = self.onecmd(line)
+  File "/usr/lib/python2.7/cmd.py", line 221, in onecmd
+    return func(arg)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/PDFConsole.py", line 3458, in do_tree
+    self.log_output('tree ' + argv, treeOutput)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/PDFConsole.py", line 4140, in log_output
+    print niceOutput
+IOError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 75, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
+Traceback (most recent call last):
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 107, in analyseJS
+    varContent = getVarContent(code, bytes)
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 160, in getVarContent
+    clearBytes += getVarContent(jsCode, varContent[0])
+  File "/home/prerana/Downloads/IAS PROJECT/peepdf_0.3/JSAnalysis.py", line 158, in getVarContent
+    varContent = re.findall(part + '\s*?=\s*?(.*?)[,;]', jsCode, re.DOTALL)
+  File "/usr/lib/python2.7/re.py", line 177, in findall
+    return _compile(pattern, flags).findall(string)
+  File "/usr/lib/python2.7/re.py", line 244, in _compile
+    raise error, v # invalid expression
+error: multiple repeat
